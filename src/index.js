@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// var React = require("react");
-// var ReactDOM = require("react-dom");
-const name = "Angele";
+
+const currentYear = new Date().getFullYear();
+const name = "Nansamba Ssensalo";
 ReactDOM.render(
-  
-  <h1>Hello {name} </h1>,
-  
-  
+  <div>
+    <h1 className="header">Hey There</h1>
+    <p>copyright {currentYear}</p>
+    <p>created by {name}</p>
+  </div>,
 
   document.getElementById("root")
 );
