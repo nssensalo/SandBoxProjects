@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 // var React = require("react");
 // var ReactDOM = require("react-dom");
-
+const name = "Angele";
 ReactDOM.render(
-  <div>
-    <h1>Hello There</h1>
-    <p> This is a paragraph</p>
-  </div>,
+  
+  <h1>Hello {name} </h1>,
+  
+  
 
   document.getElementById("root")
 );
